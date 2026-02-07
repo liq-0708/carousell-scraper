@@ -35,9 +35,11 @@ A robust Python web scraper designed to extract product details from Carousell l
     
     *Format example (links.csv):*
     ```csv
-    url
-    [https://www.carousell.com.my/p/example-product-1](https://www.carousell.com.my/p/example-product-1)
-    [https://www.carousell.com.my/p/example-product-2](https://www.carousell.com.my/p/example-product-2)
+    product_info,product_name,D_mm 4
+    https://www.carousell.com.my/p/macbook-air-m1-2020-16-gb-ram-1380808693/,MacBook Air M1 2020 16 GB RAM,"RM2,299"
+    https://www.carousell.com.my/p/macbook-air-13inch-m1-16gb-256gb-1381485514/,MacBook Air 13inch M1 16gb 256gb,"RM2,299"
+    https://www.carousell.com.my/p/macbook-air-13inch-m1-16gb-256gb-1382348050/,MacBook Air 13inch m1 16gb 256gb,"RM2,299"
+    https://www.carousell.com.my/p/macbook-air-13inch-m1-16gb-1384204068/,MacBook Air 13inch M1 16gb,"RM2,299"
     ```
 
 2.  **Run the Script**:
